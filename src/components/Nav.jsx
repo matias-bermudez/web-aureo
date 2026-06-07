@@ -16,7 +16,10 @@ export default function Nav() {
           <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Áureo" />
           <span className="nav-logo-text">ÁUREO</span>
         </a>
-        <span className="nav-badge">iOS · iPhone</span>
+        <div className="nav-right">
+          <span className="nav-badge">iOS · iPhone</span>
+          <a href="mailto:aureofinanzas@gmail.com" className="nav-contact">Contacto</a>
+        </div>
       </div>
     </nav>
   )

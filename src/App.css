@@ -203,11 +203,30 @@ body::after {
   animation: iridescent 6s ease-in-out infinite;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .nav-badge {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.07em;
   color: var(--text-muted);
+}
+
+.nav-contact {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-contact:hover {
+  color: var(--gold-light);
 }
 
 /* ═══════════════════════════════════════════
