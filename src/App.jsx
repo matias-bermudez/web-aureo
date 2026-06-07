@@ -5,6 +5,7 @@ import Philosophy from './components/Philosophy.jsx'
 import Features from './components/Features.jsx'
 import Privacy from './components/Privacy.jsx'
 import Cta from './components/Cta.jsx'
+import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 
 function GrainOverlay() {
@@ -38,6 +39,7 @@ export default function App() {
         <Features />
         <Privacy />
         <Cta />
+        <Contact />
       </main>
       <Footer />
     </>

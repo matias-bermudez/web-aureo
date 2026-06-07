@@ -13,6 +13,10 @@ export default function Footer() {
           Finanzas personales para iOS &nbsp;·&nbsp; {year}
         </p>
 
+        <a href="mailto:aureofinanzas@gmail.com" className="footer-email">
+          aureofinanzas@gmail.com
+        </a>
+
       </div>
     </footer>
   )
