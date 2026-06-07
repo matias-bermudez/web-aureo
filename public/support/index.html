@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soporte — Aureo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg:          #09090C;
+      --gold:        #C9A452;
+      --gold-light:  #E8CE82;
+      --gold-border: rgba(201,164,82,0.14);
+      --text:        #F4EDD6;
+      --text-muted:  #74695E;
+      --f-display:   'Cinzel', Georgia, serif;
+      --f-serif:     'Cormorant Garamond', Georgia, serif;
+      --f-sans:      'Inter', system-ui, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; color-scheme: dark; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--f-sans);
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding: 0 24px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 80px 0 120px;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      margin-bottom: 64px;
+      transition: color 0.2s;
+    }
+    .back:hover { color: var(--gold); }
+
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: var(--f-display);
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 40px;
+    }
+
+    .faq { margin-bottom: 64px; }
+
+    .faq-item {
+      border-top: 1px solid var(--gold-border);
+      padding: 24px 0;
+    }
+    .faq-item:last-child {
+      border-bottom: 1px solid var(--gold-border);
+    }
+
+    .faq-q {
+      font-family: var(--f-serif);
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin-bottom: 10px;
+    }
+
+    .faq-a {
+      color: var(--text);
+      opacity: 0.8;
+    }
+
+    .contact-block {
+      padding: 28px 32px;
+      border: 1px solid var(--gold-border);
+      border-radius: 12px;
+      background: rgba(201,164,82,0.04);
+    }
+
+    .contact-block .eyebrow { margin-bottom: 8px; }
+
+    .contact-block p {
+      color: var(--text);
+      opacity: 0.8;
+      margin-bottom: 16px;
+    }
+
+    .contact-link {
+      display: inline-block;
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+    .contact-link:hover { color: var(--gold-light); }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <a class="back" href="/web-aureo/">← Aureo</a>
+
+    <p class="eyebrow">Soporte</p>
+    <h1>¿En qué podemos ayudarte?</h1>
+
+    <div class="faq">
+
+      <div class="faq-item">
+        <p class="faq-q">¿Mis datos están en la nube?</p>
+        <p class="faq-a">No. Aureo es 100% local. Todos tus datos se guardan únicamente en tu iPhone y nunca se envían a ningún servidor.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">¿Cómo hago un backup de mis datos?</p>
+        <p class="faq-a">Andá a Ajustes dentro de la app → Backup y restauración → Exportar. Se genera un archivo .aureo que podés guardar donde quieras: archivos de iCloud, email, etc.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">¿Cómo restauro mis datos?</p>
+        <p class="faq-a">Andá a Ajustes → Backup y restauración → Restaurar, y seleccioná tu archivo .aureo. También podés abrir el archivo directamente desde la app Archivos y Aureo lo importa automáticamente.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">¿Cómo cancelo Aureo Pro?</p>
+        <p class="faq-a">Las suscripciones se gestionan desde iOS. Andá a Ajustes del iPhone → Tu nombre → Suscripciones → Aureo Pro → Cancelar suscripción. Seguís teniendo acceso Pro hasta que venza el período pagado.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">¿Puedo usar Aureo en varios dispositivos?</p>
+        <p class="faq-a">Aureo no tiene sincronización automática entre dispositivos. Podés mover tus datos usando la función de backup y restauración.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Desinstalé la app. ¿Perdí mis datos?</p>
+        <p class="faq-a">Si no tenías un backup exportado, sí. Por eso recomendamos exportar el archivo .aureo periódicamente y guardarlo en un lugar seguro.</p>
+      </div>
+
+    </div>
+
+    <div class="contact-block">
+      <p class="eyebrow">Contacto</p>
+      <p>¿No encontraste lo que buscabas? Escribinos y te respondemos a la brevedad.</p>
+      <a class="contact-link" href="mailto:aureofinanzas@gmail.com">aureofinanzas@gmail.com</a>
+    </div>
+
+  </div>
+</body>
+</html>
