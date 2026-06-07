@@ -898,6 +898,19 @@ body::after {
   color: var(--gold-light);
 }
 
+.footer-privacy {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-privacy:hover {
+  color: var(--gold-light);
+}
+
 /* ═══════════════════════════════════════════
    Responsive
    ═══════════════════════════════════════════ */

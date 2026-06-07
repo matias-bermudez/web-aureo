@@ -17,6 +17,10 @@ export default function Footer() {
           aureofinanzas@gmail.com
         </a>
 
+        <a href="/web-aureo/privacy/" className="footer-privacy">
+          Privacy Policy
+        </a>
+
       </div>
     </footer>
   )
