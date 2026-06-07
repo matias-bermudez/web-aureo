@@ -18,7 +18,7 @@ export default function Nav() {
         </a>
         <div className="nav-right">
           <span className="nav-badge">iOS · iPhone</span>
-          <a href="mailto:aureofinanzas@gmail.com" className="nav-contact">Contacto</a>
+          <a href="#contacto" className="nav-contact">Contacto</a>
         </div>
       </div>
     </nav>

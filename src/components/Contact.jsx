@@ -4,7 +4,7 @@ export default function Contact() {
   const ref = useRevealSection()
 
   return (
-    <section className="contact" ref={ref}>
+    <section className="contact" id="contacto" ref={ref}>
       <div className="contact-inner">
         <p className="eyebrow" data-reveal data-delay="0">Contacto</p>
         <h2 className="contact-title" data-reveal data-delay="0.1">
