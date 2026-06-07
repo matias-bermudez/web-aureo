@@ -7,7 +7,7 @@ export default function Cta() {
     <section className="cta" ref={ref}>
       <div className="cta-orb" />
       <div className="container cta-inner">
-        <img src="/logo.png" alt="Áureo" className="cta-logo" data-reveal data-delay="0" />
+        <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Áureo" className="cta-logo" data-reveal data-delay="0" />
 
         <h2 className="cta-title" data-reveal data-delay="0.1">
           Tus finanzas.<br />
@@ -15,7 +15,7 @@ export default function Cta() {
         </h2>
 
         <p className="cta-sub" data-reveal data-delay="0.2">
-          Disponible para iPhone · iOS 17 o superior · Compra única
+          Disponible para iPhone · iOS 17 o superior
         </p>
 
         <a
@@ -31,9 +31,6 @@ export default function Cta() {
           Próximamente en el App Store
         </a>
 
-        <p className="cta-note" data-reveal data-delay="0.4">
-          iPhone solamente &nbsp;·&nbsp; No disponible en iPad
-        </p>
       </div>
     </section>
   )

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <div className="footer-logo">
-          <img src="/logo.png" alt="Áureo" />
+          <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Áureo" />
           <span className="footer-logo-text">ÁUREO</span>
         </div>
 
@@ -13,9 +13,6 @@ export default function Footer() {
           Finanzas personales para iOS &nbsp;·&nbsp; {year}
         </p>
 
-        <p className="footer-made">
-          Hecho con cuidado en Argentina
-        </p>
       </div>
     </footer>
   )

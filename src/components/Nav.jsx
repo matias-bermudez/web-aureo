@@ -13,7 +13,7 @@ export default function Nav() {
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-inner">
         <a href="#" className="nav-logo">
-          <img src="/logo.png" alt="Áureo" />
+          <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Áureo" />
           <span className="nav-logo-text">ÁUREO</span>
         </a>
         <span className="nav-badge">iOS · iPhone</span>

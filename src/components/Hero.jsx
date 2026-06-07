@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="hero-orb hero-orb-1" />
       <div className="hero-orb hero-orb-2" />
 
-      <img src="/logo.png" alt="Áureo" className="hero-logo" />
+      <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Áureo" className="hero-logo" />
 
       <h1 className="hero-title">ÁUREO</h1>
 
@@ -12,7 +12,7 @@ export default function Hero() {
 
       <p className="hero-sub">
         App de finanzas personales &nbsp;·&nbsp; iOS &nbsp;·&nbsp;
-        Sin servidores &nbsp;·&nbsp; Sin suscripciones
+        Sin servidores
       </p>
 
       <a href="#features" className="hero-cta">
