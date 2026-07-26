@@ -134,60 +134,101 @@
 
     <p class="eyebrow">Legal</p>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: June 7, 2025</p>
+    <p class="updated">Last updated: July 26, 2026</p>
 
     <hr class="divider" />
 
     <p>
       This Privacy Policy describes how Aureo (the "App"), developed by Matías Bermúdez,
-      handles your information.
+      handles your information. It applies to the App on both iOS and Android.
     </p>
 
     <h2>Summary</h2>
     <p>
       Aureo does not collect, store, or share any personal information. All data you enter
-      in the App stays on your device and is never transmitted to any server.
+      in the App stays on your device and is never transmitted to any server. The App's only
+      network request fetches public currency exchange rates and contains none of your data.
     </p>
 
     <h2>Information We Do Not Collect</h2>
     <ul>
       <li>We do not collect your name, email, or any personal identifiers</li>
       <li>We do not track your location</li>
-      <li>We do not use analytics or advertising tools</li>
-      <li>We do not share any data with third parties</li>
+      <li>We do not use analytics, advertising, or tracking tools</li>
+      <li>We do not share or sell any data with third parties</li>
     </ul>
 
     <h2>Data Storage</h2>
     <p>
-      All financial data you enter in Aureo (transactions, accounts, budgets) is stored
-      locally on your device. Aureo does not have a backend, user accounts, or cloud sync.
+      All financial data you enter in Aureo (transactions, accounts, budgets, funds, debts)
+      is stored locally on your device. Aureo does not have a backend, user accounts, or
+      cloud sync.
     </p>
 
     <h2>Camera and Photo Library</h2>
     <p>
       Aureo requests access to the camera solely for receipt scanning. Receipt images are
-      processed locally on your device using Apple's Vision framework and are never uploaded
-      to any server.
+      processed entirely on your device — using Apple's Vision framework on iOS and Google
+      ML Kit's on-device text recognition on Android — and are never uploaded to any server.
     </p>
     <p>
-      Aureo requests access to the photo library solely to attach receipt images to
+      Aureo requests access to your photos solely to attach receipt images to
       transactions. These images are never uploaded or shared.
+    </p>
+
+    <h2>Notifications</h2>
+    <p>
+      Aureo can send you reminders: payday, budget alerts, weekly summaries, and a notice
+      one week before a free trial ends. These notifications are scheduled and delivered
+      locally by your device. No notification content reaches us or any third party, and no
+      push service ever receives your financial data.
+    </p>
+
+    <h2>Backups</h2>
+    <p>
+      Aureo lets you export a backup file of your data. You choose where that file is saved
+      — device storage, a cloud folder, email. Aureo never uploads backups anywhere; once
+      you export a file it is under your control, and subject to the terms of wherever you
+      choose to store it.
+    </p>
+
+    <h2>Network Connections</h2>
+    <p>
+      Aureo works offline. It makes a single network request of its own: it fetches public
+      currency exchange rates from <a href="https://dolarapi.com" target="_blank" rel="noopener">dolarapi.com</a>
+      over HTTPS in order to convert amounts. That request carries no personal or financial
+      information — it asks only for a published exchange rate.
+    </p>
+    <p>
+      Purchases are handled by the App Store or Google Play, as described below.
     </p>
 
     <h2>In-App Purchases</h2>
     <p>
-      Aureo offers optional paid subscriptions and a one-time purchase through Apple's
-      In-App Purchase system. Payments are processed entirely by Apple. Aureo does not
-      receive or store any payment information.
+      Aureo offers optional paid subscriptions and a one-time purchase. On iOS these are
+      processed through Apple's In-App Purchase system; on Android, through Google Play
+      Billing. Payments are processed entirely by Apple or Google. Aureo does not receive or
+      store any payment information, including card numbers.
+    </p>
+    <p>
+      Subscriptions that include a free trial convert to a paid subscription automatically
+      unless you cancel before the trial ends. You can cancel at any time from your App
+      Store or Google Play account settings.
     </p>
 
     <h2>Third-Party Services</h2>
     <p>
-      Aureo relies on Apple's In-App Purchase system for processing subscriptions and
-      purchases. Apple may collect information according to its own privacy practices.
-      Please refer to
+      Aureo relies on Apple's In-App Purchase system (iOS) and Google Play Billing (Android)
+      to process subscriptions and purchases. Apple and Google may collect information
+      according to their own privacy practices. Please refer to
       <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>
+      and
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>
       for more information.
+    </p>
+    <p>
+      On Android, Aureo uses Google ML Kit for on-device text recognition. This component
+      runs locally and does not send images or recognized text off the device.
     </p>
 
     <h2>Data Deletion</h2>
