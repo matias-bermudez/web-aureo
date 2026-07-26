@@ -42,7 +42,7 @@ const features = [
       </svg>
     ),
     name: 'Scanner con IA',
-    desc: 'Fotografiá el ticket y Áureo lo categoriza. Con Apple Intelligence (iOS 26+) corre 100% en tu dispositivo.',
+    desc: 'Fotografiá el ticket y Áureo lo categoriza. El reconocimiento corre 100% en tu dispositivo: Apple Intelligence en iOS 26+, ML Kit en Android.',
   },
   {
     icon: (

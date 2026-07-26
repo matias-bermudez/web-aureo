@@ -11,7 +11,7 @@ export default function Hero() {
       <p className="hero-tagline">El valor exacto de lo que tenés.</p>
 
       <p className="hero-sub">
-        App de finanzas personales &nbsp;·&nbsp; iOS &nbsp;·&nbsp;
+        App de finanzas personales &nbsp;·&nbsp; iOS &nbsp;·&nbsp; Android pronto &nbsp;·&nbsp;
         Sin servidores
       </p>
 

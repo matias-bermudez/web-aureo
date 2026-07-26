@@ -10,7 +10,7 @@ export default function Footer() {
         </div>
 
         <p className="footer-copy">
-          Finanzas personales para iOS &nbsp;·&nbsp; {year}
+          Finanzas personales para iOS &nbsp;·&nbsp; Android próximamente &nbsp;·&nbsp; {year}
         </p>
 
         <a href="mailto:aureofinanzas@gmail.com" className="footer-email">

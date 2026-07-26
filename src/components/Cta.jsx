@@ -33,6 +33,10 @@ export default function Cta() {
           Descargar en el App Store
         </a>
 
+        <p className="cta-note" data-reveal data-delay="0.4">
+          Android · próximamente en Google Play
+        </p>
+
       </div>
     </section>
   )

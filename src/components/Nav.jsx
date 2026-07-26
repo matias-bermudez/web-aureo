@@ -17,7 +17,7 @@ export default function Nav() {
           <span className="nav-logo-text">ÁUREO</span>
         </a>
         <div className="nav-right">
-          <span className="nav-badge">iOS · iPhone</span>
+          <span className="nav-badge">iOS · Android pronto</span>
           <a href="#contacto" className="nav-contact">Contacto</a>
         </div>
       </div>
