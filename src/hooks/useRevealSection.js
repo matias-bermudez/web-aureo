@@ -21,7 +21,10 @@ export function useRevealSection() {
         if (entry.isIntersecting) {
           items.forEach(el => {
             el.style.opacity = '1'
-            el.style.transform = 'none'
+            // Se limpia la propiedad en vez de fijarla en 'none': un transform inline
+            // le gana a cualquier regla de la hoja de estilos, y dejaba muertos los
+            // hover que levantan el elemento (.cta-btn, tarjetas de features).
+            el.style.transform = ''
           })
           observer.disconnect()
         }

@@ -781,6 +781,54 @@ body::after {
   box-shadow: 0 12px 48px rgba(201,164,82,0.35);
 }
 
+/* Fila de acciones: App Store (disponible) + Google Play (próximamente).
+   Misma silueta para que lean como pares; el peso los distingue. */
+.cta-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cta-btn-soon {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 32px;
+  background: rgba(201,164,82,0.05);
+  border: 1px solid var(--gold-bh);
+  border-radius: 100px;
+  font-family: var(--f-sans);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--gold-light);
+  letter-spacing: 0.02em;
+  cursor: default;
+  user-select: none;
+}
+
+.cta-btn-soon svg {
+  opacity: 0.9;
+}
+
+.cta-soon-tag {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bg);
+  background: linear-gradient(135deg, var(--gold-dim) 0%, var(--gold) 60%, var(--gold-light) 100%);
+  padding: 3px 8px;
+  border-radius: 100px;
+  margin-left: 2px;
+}
+
+@media (max-width: 520px) {
+  .cta-actions { flex-direction: column; gap: 14px; }
+  .cta-actions > * { width: 100%; justify-content: center; }
+}
+
 .cta-note {
   margin-top: 20px;
   font-size: 12px;
