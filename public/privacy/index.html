@@ -146,8 +146,9 @@
     <h2>Summary</h2>
     <p>
       Aureo does not collect, store, or share any personal information. All data you enter
-      in the App stays on your device and is never transmitted to any server of ours. The App's
-      only network request fetches public currency exchange rates and contains none of your
+      in the App stays on your device and is never transmitted to any server of ours. The
+      Android app makes no network requests of its own; on iOS, the only one fetches public
+      currency exchange rates and contains none of your
       data. The one exception is entirely under your control: on Android you may opt in to
       Android's encrypted cloud backup, which is off by default (see &ldquo;Backups&rdquo; below).
     </p>
@@ -206,8 +207,12 @@
 
     <h2>Network Connections</h2>
     <p>
-      Aureo works offline. It makes a single network request of its own: it fetches public
-      currency exchange rates from <a href="https://dolarapi.com" target="_blank" rel="noopener">dolarapi.com</a>
+      Aureo works offline. <strong>The Android app makes no network requests of its own at
+      all</strong> — nothing it does reaches any server we run or any third-party API.
+    </p>
+    <p>
+      On iOS, Aureo makes a single request of its own: it fetches public currency exchange
+      rates from <a href="https://dolarapi.com" target="_blank" rel="noopener">dolarapi.com</a>
       over HTTPS in order to convert amounts. That request carries no personal or financial
       information — it asks only for a published exchange rate.
     </p>
